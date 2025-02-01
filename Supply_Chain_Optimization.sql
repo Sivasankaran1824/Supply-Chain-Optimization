@@ -6,7 +6,7 @@ USE supplychain;
 -- Create Suppliers table
 CREATE TABLE Suppliers (
     supplier_id INT PRIMARY KEY,
-    supplier_name VARCHAR(255),
+    supplier_name VARCHAR(255), 
     contact_person VARCHAR(255),
     phone_number VARCHAR(15),
     email VARCHAR(255)
